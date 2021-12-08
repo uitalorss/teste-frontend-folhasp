@@ -1,0 +1,54 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+}
+
+header {
+  background-color: #3199dc;
+}
+
+.cabecalho {
+  justify-content: space-between;
+}
+
+.menu-icon {
+  margin: auto 0;
+  height: 5%;
+}
+
+.apresentacao {
+  display: flex;
+}
+
+.apresentacao p {
+  margin: auto;
+  font-size: 1.25em;
+  color: #ffffff;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.redes-sociais {
+  margin: auto 0;
+}
+
+.icon-rede-social {
+  width: 20%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4%;
+}
+
+.icon-rede-social:nth-child(1) {
+  margin-right: 10px;
+}
+
+.logo {
+}
