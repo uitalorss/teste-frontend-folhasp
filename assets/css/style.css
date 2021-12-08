@@ -107,3 +107,21 @@ strong {
   top: 280px;
   left: 1250px;
 }
+
+/* área de noticias */
+.area-noticias {
+  margin-top: 80px;
+}
+
+.campo-titulo {
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.campo-titulo h4 {
+  font-size: 1.5em;
+}
+
+.sequencia-noticias {
+  justify-content: space-between;
+}
