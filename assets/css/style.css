@@ -1,5 +1,6 @@
 body {
   font-family: 'Inter', sans-serif;
+  background: #edf0f1;
 }
 
 .container {
@@ -61,7 +62,7 @@ strong {
   position: relative;
 }
 
-.slide img {
+.img-slide {
   margin-top: 60px;
   width: 112%;
 }
@@ -86,4 +87,23 @@ strong {
   font-size: 2em;
   line-height: 1.2em;
   font-weight: bold;
+}
+
+.setas {
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 60%;
+  box-shadow: 1px 1px 1px #000000;
+}
+
+.seta-esq {
+  position: absolute;
+  top: 280px;
+  left: -30px;
+}
+
+.seta-dir {
+  position: absolute;
+  top: 280px;
+  left: 1250px;
 }
