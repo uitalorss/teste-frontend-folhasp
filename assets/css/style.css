@@ -40,6 +40,10 @@ strong {
   margin: auto 0;
 }
 
+.redes-sociais a {
+  margin-left: auto;
+}
+
 .icon-rede-social {
   width: 20%;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -50,5 +54,36 @@ strong {
   margin-right: 10px;
 }
 
-.logo {
+/* slide */
+
+.slide {
+  align-items: center;
+  position: relative;
+}
+
+.slide img {
+  margin-top: 60px;
+  width: 112%;
+}
+
+.slide p {
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  width: 25%;
+  display: flex;
+  padding: 5px;
+  background: #3199dc;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.slide h3 {
+  position: absolute;
+  top: 480px;
+  left: 30px;
+  color: #ffffff;
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: bold;
 }
