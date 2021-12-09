@@ -122,14 +122,24 @@ strong {
   font-size: 1.5em;
 }
 
-.sequencia-noticias {
+.sequencia-noticias,
+.segunda-area {
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 /* segunda área de noticias */
-.noticia {
-  width: 30%;
+.espaco-noticia {
+  width: 73%;
+  display: flex;
+}
+
+.area-noticia .noticia {
+  width: 65%;
+}
+
+.noticia img {
+  width: 360px;
 }
 
 .noticia h6 {
@@ -139,10 +149,6 @@ strong {
 }
 
 .noticia p {
+  width: 80%;
   line-height: 1.5em;
-}
-
-.publicidade {
-  position: absolute;
-  margin-left: auto;
 }
