@@ -136,11 +136,10 @@ strong {
 
 .espaco-publicidade {
   width: 20%;
-  margin-left: 0;
 }
 
-.area-noticia .noticia {
-  width: 65%;
+.espaco-noticia .noticia {
+  margin-bottom: 30px;
 }
 
 .noticia img {
@@ -154,6 +153,6 @@ strong {
 }
 
 .noticia p {
-  width: 80%;
+  width: 75%;
   line-height: 1.5em;
 }
