@@ -215,3 +215,29 @@ strong {
 .terceira-sessao li p {
   width: 80%;
 }
+
+footer .voltar {
+  padding: 15px;
+  background: #3199dc;
+}
+
+.voltar p {
+  font-size: 1.25em;
+  color: #ffffff;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.footer {
+  background: #283c4f;
+  padding: 20px;
+}
+
+.footer p {
+  color: #ffffff;
+  line-height: 1.5em;
+  font-size: 0.8em;
+  padding: 10px 0;
+  margin-left: 60px;
+  width: 80%;
+}
