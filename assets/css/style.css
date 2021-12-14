@@ -123,15 +123,20 @@ strong {
 }
 
 .sequencia-noticias,
-.segunda-area {
+.espaco-noticia {
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 /* segunda área de noticias */
 .espaco-noticia {
-  width: 73%;
+  width: 76%;
   display: flex;
+}
+
+.espaco-publicidade {
+  width: 20%;
+  margin-left: 0;
 }
 
 .area-noticia .noticia {
