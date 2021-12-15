@@ -324,4 +324,12 @@ footer .voltar {
   .espaco-publicidade {
     display: none;
   }
+
+  .ultima-sessao {
+    flex-direction: column;
+  }
+
+  .ultima-sessao .primeira-sessao {
+    width: 50%;
+  }
 }
