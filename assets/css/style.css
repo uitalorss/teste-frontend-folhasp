@@ -309,9 +309,16 @@ footer .voltar {
     width: 90%;
   }
 
+  .espaco-noticia {
+    width: 88%;
+  }
+
   .espaco-noticia .noticia {
     width: 40%;
-    justify-content: space-between;
+  }
+
+  .noticia img {
+    height: 200px;
   }
 
   .espaco-publicidade {
