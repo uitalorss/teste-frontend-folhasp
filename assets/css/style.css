@@ -241,3 +241,59 @@ footer .voltar {
   margin-left: 60px;
   width: 80%;
 }
+
+@media only screen and (min-width: 421px) and (max-width: 860px) {
+  .container {
+    width: 90%;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  .cabecalho {
+    justify-content: flex-end;
+  }
+
+  .apresentacao {
+    justify-content: center;
+  }
+
+  .apresentacao p {
+    margin: 40px 10px 0 10px;
+    font-size: 0.9em;
+  }
+
+  .redes-sociais {
+    margin-right: 0;
+  }
+
+  .icon-rede-social {
+    width: 15%;
+  }
+
+  .area-principal {
+    width: 90%;
+  }
+
+  .setas {
+    display: none;
+  }
+
+  .img-slide {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .slide P {
+    top: 220px;
+    font-size: 0.9em;
+    width: 30%;
+    font-weight: bold;
+  }
+
+  .slide h3 {
+    top: 250px;
+    font-size: 1.5em;
+  }
+}
