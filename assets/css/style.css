@@ -326,10 +326,20 @@ footer .voltar {
   }
 
   .ultima-sessao {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
-  .ultima-sessao .primeira-sessao {
+  .ultima-sessao .primeira-sessao,
+  .ultima-sessao .segunda-sessao,
+  .ultima-sessao .terceira-sessao {
     width: 50%;
+  }
+
+  .ultima-sessao h3 {
+    font-size: 1.5em;
+  }
+
+  .primeira-sessao .texto {
+    font-size: 1em;
   }
 }
