@@ -296,4 +296,25 @@ footer .voltar {
     top: 250px;
     font-size: 1.5em;
   }
+
+  .area-noticias {
+    margin-top: 40px;
+  }
+
+  .area-noticias .sequencia-noticias {
+    flex-wrap: nowrap;
+  }
+
+  .primeiro-bloco img {
+    width: 90%;
+  }
+
+  .espaco-noticia .noticia {
+    width: 40%;
+    justify-content: space-between;
+  }
+
+  .espaco-publicidade {
+    display: none;
+  }
 }
