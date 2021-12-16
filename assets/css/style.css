@@ -377,7 +377,8 @@ footer .voltar {
   }
 
   .area-principal {
-    width: 90%;
+    width: 95%;
+    margin-bottom: 120px;
   }
 
   .setas {
@@ -386,31 +387,44 @@ footer .voltar {
 
   .img-slide {
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 100%;
+    height: 110%;
   }
 
   .slide P {
-    top: 220px;
+    top: 225px;
     font-size: 0.9em;
-    width: 30%;
+    width: 55%;
     font-weight: bold;
+    left: auto;
   }
 
   .slide h3 {
-    top: 250px;
-    font-size: 1.5em;
+    top: 259px;
+    font-size: 1.25em;
+    left: auto;
+    color: #000;
   }
 
   .area-noticias {
     margin-top: 40px;
   }
 
+  .campo-titulo h4 {
+    display: none;
+  }
+
   .area-noticias .sequencia-noticias {
-    flex-wrap: nowrap;
+    flex-wrap: column;
+  }
+
+  .primeiro-bloco {
+    margin: 0 auto 20px auto;
   }
 
   .primeiro-bloco img {
-    width: 90%;
+    width: 100%;
   }
 
   .espaco-noticia {
