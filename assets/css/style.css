@@ -244,6 +244,14 @@ footer .voltar {
   width: 80%;
 }
 
+.espaco-publicidade-tablet {
+  display: none;
+}
+
+.espaco-publicidade-smartphone {
+  display: none;
+}
+
 @media only screen and (min-width: 421px) and (max-width: 860px) {
   .container {
     width: 90%;
@@ -324,6 +332,15 @@ footer .voltar {
   }
 
   .espaco-publicidade {
+    display: none;
+  }
+
+  .espaco-publicidade-tablet {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .espaco-publicidade-smartphone {
     display: none;
   }
 
@@ -454,6 +471,11 @@ footer .voltar {
 
   .espaco-publicidade {
     display: none;
+  }
+
+  .espaco-publicidade-smartphone {
+    display: flex;
+    margin: 0 auto;
   }
 
   .ultima-sessao {
